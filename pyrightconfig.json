@@ -1,0 +1,24 @@
+{
+  "//": "Pins how Pylance analyses this project so the Problems panel matches",
+  "//2": "what actually runs. The app is a package rooted at the repo dir.",
+
+  "include": ["app", "tests", "scripts", "wsgi.py"],
+  "exclude": [
+    "**/venv",
+    "**/__pycache__",
+    "**/.pytest_cache",
+    "screenshots",
+    "db"
+  ],
+
+  "extraPaths": ["."],
+  "venvPath": ".",
+  "venv": "venv",
+
+  "typeCheckingMode": "off",
+
+  "reportMissingImports": "error",
+  "reportMissingModuleSource": "none",
+  "reportUndefinedVariable": "error",
+  "reportSelfClsParameterName": "none"
+}

@@ -1,0 +1,33 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Secrets — never bake credentials into the image
+.env
+*.json
+!requirements.txt
+
+# Dev / test artefacts
+*.log
+startup_out.txt
+startup_err.txt
+flask_out.txt
+flask_err.txt
+tests/
+pytest_cache/
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Git
+.git/
+.gitignore
